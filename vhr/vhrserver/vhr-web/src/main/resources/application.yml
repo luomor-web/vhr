@@ -7,14 +7,14 @@ spring:
   rabbitmq:
     username: guest
     password: guest
-    host: 127.0.0.1
-    publisher-confirms: true
+    host: 172.17.56.182
+    # publisher-confirms: true
     publisher-returns: true
   redis:
     host: 127.0.0.1
     database: 0
     port: 6379
-    password: 123
+    password:
   cache:
     cache-names: menus_cache
 server:
@@ -23,4 +23,4 @@ server:
     enabled: true
 fastdfs:
   nginx:
-    host: http://192.168.91.128/
+    host: http://172.17.56.182/
