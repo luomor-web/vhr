@@ -1,4 +1,5 @@
 let proxyObj = {};
+// 101.200.34.227
 const CompressionPlugin = require("compression-webpack-plugin");
 proxyObj['/ws'] = {
     ws: true,
