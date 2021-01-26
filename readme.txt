@@ -1,12 +1,12 @@
 drop user 'vhrvhr'@'127.0.0.1';
 create database vhr default character set utf8mb4 collate utf8mb4_unicode_ci;
 use vhr;
-create user 'vhrvhr'@'127.0.0.1' identified by 'vhr123465';
+create user 'vhrvhr'@'127.0.0.1' identified by 'vhr123456';
 grant all privileges on vhr.* to 'vhrvhr'@'127.0.0.1';
 flush privileges;
 
 drop user 'vhrvhr'@'localhost';
-create user 'vhrvhr'@'localhost' identified by 'vhr123465';
+create user 'vhrvhr'@'localhost' identified by 'vhr123456';
 grant all privileges on vhr.* to 'vhrvhr'@'localhost';
 flush privileges;
 
