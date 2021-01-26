@@ -4,3 +4,8 @@ use vhr;
 create user 'vhr'@'127.0.0.1' identified by '123465';
 grant all privileges on vhr.* to 'vhr'@'127.0.0.1';
 flush privileges;
+
+
+create user 'vhr'@'localhost' identified by '123465';
+grant all privileges on vhr.* to 'vhr'@'localhost';
+flush privileges;
